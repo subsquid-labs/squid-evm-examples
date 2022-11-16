@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "rm -rf lib && tsc",
-    "evm-typegen": "npx squid-evm-typegen --input src/erc721.json --output src/erc721.ts"
+    "build": "rm -rf lib && tsc"
   },
   "dependencies": {
     "@subsquid/evm-processor": "^0.0.1",

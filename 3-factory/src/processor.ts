@@ -15,7 +15,10 @@ import * as poolAbi from './abi/pool'
 
 export const FACTORY_ADDRESS = '0x1f98431c8ad98523631ae4a59f267346ea31f984'
 
-const processor = new EvmBatchProcessor()
+let processor = new EvmBatchProcessor()
+    .setDataSource({
+        archive: 'https://eth.archive.subsquid.io',
+    })
     .setBlockRange({
         from: 12_369_621,
     })
@@ -40,10 +43,6 @@ const processor = new EvmBatchProcessor()
             },
         } as const,
     })
-
-processor.setDataSource({
-    archive: 'https://eth.archive.subsquid.io',
-})
 
 type Item = BatchProcessorItem<typeof processor>
 type Ctx = BatchHandlerContext<Store, Item>
@@ -73,10 +72,10 @@ processor.run(new TypeormDatabase(), async (ctx) => {
 let factoryPools: Set<string>
 
 async function savePools(ctx: Ctx, poolsData: PoolCreationData[]) {
-    const pools: Pool[] = []
+    let pools: Pool[] = []
 
-    for (const p of poolsData) {
-        const pool = new Pool(p)
+    for (let p of poolsData) {
+        let pool = new Pool(p)
         pools.push(pool)
         factoryPools.add(pool.id)
     }

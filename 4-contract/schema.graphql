@@ -1,0 +1,22 @@
+type Token @entity {
+    id: ID!
+    index: BigInt!
+    owner: Owner!
+    uri: String!
+    transfers: [Transfer!]! @derivedFrom(field: "token")
+}
+
+type Owner @entity {
+    id: ID!
+    ownedTokens: [Token!]! @derivedFrom(field: "owner")
+}
+
+type Transfer @entity {
+    id: ID!
+    token: Token!
+    from: Owner!
+    to: Owner!
+    timestamp: DateTime!
+    blockNumber: Int!
+    txHash: String!
+}
