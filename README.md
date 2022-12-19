@@ -1,6 +1,6 @@
 # Ethereum indexing squids
 
-This repo contains sample [squid ETLs](https://docs.subsquid.io/overview/) for indexing, transforming and presenting Ethereum data as GraphQL API. Each squid highlights a separate feature of the Squid SDK. All the squids (except for [4-contract](/4-contract/)) fetch the raw on-chain data from the Ethereum Archive and can be run locally without the need to set up a connection to an archive Ethereum node endpoint.
+This repo contains sample [squid ETLs](https://docs.subsquid.io/overview/) for indexing, transforming and presenting EVM on-chain data as GraphQL API. Each squid highlights a separate feature of the Squid SDK. All the squids (except for [4-contract](/4-contract/)) fetch the raw on-chain data from the Ethereum Archive and can be run locally without the need to set up a connection to an archive Ethereum node endpoint.
 
 ## Overview
 
