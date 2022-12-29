@@ -1,0 +1,12 @@
+[submodule "1-evm-logs"]
+	path = 1-evm-logs
+	url = https://github.com/belopash/evm-logs-example.git
+	branch = master
+[submodule "3-factory"]
+	path = 3-factory
+	url = https://github.com/belopash/factory-example.git
+	branch = master
+[submodule "4-contract"]
+	path = 4-contract
+	url = https://github.com/belopash/contract-example.git
+	branch = master
