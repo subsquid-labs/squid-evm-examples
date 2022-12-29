@@ -1,0 +1,3 @@
+[submodule "1-evm-logs"]
+	path = 1-evm-logs
+	url = https://github.com/belopash/1-evm-logs.git
