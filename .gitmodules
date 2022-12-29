@@ -10,3 +10,7 @@
 	path = 4-contract
 	url = https://github.com/belopash/contract-example.git
 	branch = master
+[submodule "5-multicall"]
+	path = 5-multicall
+	url = https://github.com/belopash/multicall-example.git
+	branch = master
