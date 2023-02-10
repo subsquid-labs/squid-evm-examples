@@ -14,7 +14,13 @@ This repo contains sample [squid ETLs](https://docs.subsquid.io/overview/) for i
 
 - Node v16.x
 - Docker
-- GNU Make
+- Squid CLI
+
+To install the Squid CLI, run 
+
+```
+npm i -g @subsquid/cli
+```
 
 ## Running 
 
@@ -22,12 +28,12 @@ Navigate to the example folder.
 
 ```bash
 npm ci
-npm run build
+sqd build
 # start the database
-make up
+sqd up
 # starts a long-running ETL and blocks the terminal
-make process
+sqd process
 
 # starts the GraphQL API server at localhost:4350/graphql
-make serve
+sqd serve
 ```
