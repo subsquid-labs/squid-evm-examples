@@ -1,16 +1,16 @@
 [submodule "evm-logs-example"]
 	path = 1-evm-logs
-	url = https://github.com/belopash/evm-logs-example.git
+	url = https://github.com/subsquid-labs/evm-logs-example.git
 	branch = master
 [submodule "factory-example"]
 	path = 3-factory
-	url = https://github.com/belopash/factory-example.git
+	url = https://github.com/subsquid-labs/factory-example.git
 	branch = master
 [submodule "contract-example"]
 	path = 4-contract-calls
-	url = https://github.com/belopash/contract-example.git
+	url = https://github.com/subsquid-labs/contract-example.git
 	branch = master
 [submodule "multicall-example"]
 	path = 5-multicall
-	url = https://github.com/belopash/multicall-example.git
+	url = https://github.com/subsquid-labs/multicall-example.git
 	branch = master
