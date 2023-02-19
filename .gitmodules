@@ -14,3 +14,7 @@
 	path = 5-multicall
 	url = https://github.com/subsquid-labs/multicall-example.git
 	branch = master
+[submodule "ipfs-example"]
+	path = 6-ipfs
+	url = https://github.com/subsquid-labs/ipfs-example.git
+	branch = master
