@@ -9,6 +9,7 @@ This repo contains sample [squid ETLs](https://docs.subsquid.io/overview/) for i
 - [3-factory](https://github.com/belopash/factory-example): Index token swaps from dynamically created pools. Illustrates global EVM log filtering.
 - [4-contract-calls](https://github.com/belopash/contract-example): Enrich the model data by querying the historical state of the contract.
 - [5-multicall](https://github.com/belopash/multicall-example): Same as contract example but with contract-calls state requests batching.
+- [6-ipfs](https://github.com/subsquid-labs/ipfs-example) A BAYC NFT indexer. Illustrates batched IPFS gateway calls, external API calls, and contract state queries.
 
 ## Prerequisites
 
