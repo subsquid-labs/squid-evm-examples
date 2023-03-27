@@ -18,3 +18,7 @@
 	path = 6-ipfs
 	url = https://github.com/subsquid-labs/ipfs-example.git
 	branch = master
+[submodule "transactions-example"]
+	path = 2-transactions
+	url = https://github.com/subsquid-labs/transactions-example.git
+	branch = main
