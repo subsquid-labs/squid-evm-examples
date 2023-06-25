@@ -6,8 +6,8 @@ This repo contains sample [squid ETLs](https://docs.subsquid.io/overview/) for i
 
 - [1-evm-logs](https://github.com/belopash/evm-logs-example): Index ERC20 transfers by extracting `Transfer(address,address,uint256)` event logs emitted by a given contract.
 - [2-transaction](https://github.com/subsquid-labs/evm-transactions-example/): Index transactions data.
-- [3-factory](https://github.com/belopash/factory-example): Index token swaps from dynamically created pools. Illustrates network-wide filtering of EVM logs.
-- [4-contract-calls](https://github.com/belopash/contract-example): Enrich the model data by querying the historical state of the contract.
+- [3-factory](https://github.com/belopash/factory-example): Index token swaps within dynamically created pools. Illustrates network-wide filtering of EVM logs.
+- [4-contract-calls](https://github.com/belopash/contract-example): Enrich the model data by querying historical state of the contract.
 - [5-multicall](https://github.com/belopash/multicall-example): Same as the contract example but with state requests batching.
 - [6-ipfs](https://github.com/subsquid-labs/ipfs-example) A BAYC NFT indexer. Illustrates batched IPFS gateway calls, external API calls, and contract state queries.
 
