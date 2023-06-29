@@ -22,3 +22,6 @@
 	path = 2-transactions
 	url = https://github.com/subsquid-labs/transactions-example.git
 	branch = master
+[submodule "7-multichain"]
+	path = 7-multichain
+	url = https://github.com/subsquid-labs/multichain-transfers-example

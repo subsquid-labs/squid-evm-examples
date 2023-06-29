@@ -10,6 +10,7 @@ This repo contains sample [squid ETLs](https://docs.subsquid.io/overview/) for i
 - [4-contract-calls](https://github.com/belopash/contract-example): Enrich the model data by querying historical state of the contract.
 - [5-multicall](https://github.com/belopash/multicall-example): Same as the contract example but with state requests batching.
 - [6-ipfs](https://github.com/subsquid-labs/ipfs-example) A BAYC NFT indexer. Illustrates batched IPFS gateway calls, external API calls, and contract state queries. Alternative implementation of the [BAYC indexer](https://github.com/subsquid-labs/bayc-squid-1) described in the [tutorial](https://docs.subsquid.io/tutorials/bayc/).
+- [7-multichain](https://github.com/subsquid-labs/multichain-transfers-example) A simple multichain squid indexing Transfer events emitted by USDC contracts on Ethereum and BSC.
 
 ## Prerequisites
 
