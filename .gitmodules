@@ -25,3 +25,6 @@
 [submodule "7-multichain"]
 	path = 7-multichain
 	url = https://github.com/subsquid-labs/squid-multichain-template.git
+[submodule "8-hyperliquid-drip-trade"]
+	path = 8-hyperliquid-drip-trade
+	url = https://github.com/subsquid-labs/hyperliquid-drip-trade-example.git
